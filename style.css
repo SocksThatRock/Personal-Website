@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #944300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  background-color: #341a00;
+  border-radius: 50px;
+  margin-top: 5%;
+  padding: 20px;
+}
+
+
+a:link {
+  color: #ff8800;
+}
+/* visited link */
+a:visited {
+  color: #341a00;
+}
+/* mouse over link */
+a:hover {
+  color: #341a00;
+}
+/* selected link */
+a:active {
+  color: #eaff00;
+}
+
+
+.url_styling {
+  font-weight: 600;
+  font-size: 15px;
+  font-display: #412;
+  transform-box: border-box;
+  text-decoration-color: #9c4e00;
+  color: #000000;
+}
+
+
+.bold_headline {
+  font-weight: 700;
+  font-size: 45px;
+  margin-top: 4%;
+  text-transform: uppercase;
+  color: #ad5700;
+}
+.bold_headline_RTS {
+  font-weight: 500;
+  font-size: 45px;
+  margin-top: 10px;
+  text-align:center;
+  text-decoration-color: #341a00;
+  text-transform: capitalize;
+  text-rendering:geometricPrecision;
+  color: #ad5700;
+}
+
+.bold_headline_Rock {
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 10px;
+  text-align:left;
+  text-decoration-color: #341a00;
+  text-transform:uppercase;
+  text-rendering:geometricPrecision;
+  color: #ad5700;
+}
+
+
+.p_underline {
+  text-decoration: underline;
+}
+
+
+
+.bold_headline_appointment {
+  font-weight: 700;
+  font-size: 30px;
+text-overflow: clip;  margin-top: 10px;
+  text-align:left;
+  text-decoration-color: #341a00;
+  text-transform:uppercase;
+  font-stretch:narrower;
+  color: #ad5700;
+}
+
+.exclamation {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 4%;
+  border-radius: 50px;
+  /* text-transform: uppercase; */
+  color: #000000;
+}
+
+.content_url {
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 4%;
+  font-size: small;
+  border-radius: 50px;
+  /* text-transform: uppercase; */
+  color: #ad007f;
+}
+
+.content_bold {
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 4%;
+  font-size: small;
+  border-radius: 50px;
+  /* text-transform: uppercase; */
+  color: #ad5700;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.resume {
+  width: 1800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+.resume .resume_left {
+  width: 410px;
+  background: #f4800b;
+}
+
+.resume .resume_left .resume_profile {
+  width: 410px;
+  height: 480px;
+}
+
+.resume .resume_left .resume_profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.resume .resume_left .resume_content {
+  padding: 0 25px;
+  
+}
+
+.resume .title {
+  margin-bottom: 10px;
+  
+}
+
+.resume .resume_left .bold {
+  color: #fff;
+  
+}
+
+.resume .resume_left .regular {
+  color: #ffffff;
+}
+
+.resume .resume_item {
+  padding: 25px 0;
+  margin-top: 10px;
+  border-bottom: 5px solid #341a00;
+}
+
+.resume .resume_left .resume_item:last-child,
+.resume .resume_right .resume_item:last-child {
+  border-bottom: 0px;
+}
+
+.resume .resume_left ul li {
+  display: flex;
+  background-color: #ad5700;
+  border-radius: 20px;
+  border-color: #340018;
+  border-style: double;
+  border-width: 4px;
+}
+
+.resume .resume_left ul li:last-child {
+  margin-bottom: 0;
+}
+
+.resume .resume_left ul li .icon {
+  width: 35px;
+  height: 35px;
+  background: #ffffff;
+  background-color: #341a00;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  position: relative;
+}
+
+.resume .icon i,
+.resume .resume_right .resume_hobby ul li i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.resume .resume_left ul li .data {
+  color: #ffffffdd;
+  margin-left: 1%;
+
+  
+}
+
+.resume .resume_left .resume_skills ul li {
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume .resume_left .resume_skills ul li .skill_name {
+  width: 25%;
+  padding: 10px;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress {
+  width: 60%;
+  margin: 5px;
+  color: #f4800b;
+  height: 10px;
+  border-width: 1px;
+  
+  background: #f4800b;
+  position: relative;
+}
+
+.resume .resume_left .resume_skills ul li .skill_per {
+  width: 15%;
+  margin-left: 5px;
+}
+.resume .resume_left .resume_skills ul li .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  background: #fff;
+
+}
+
+.resume .resume_left .resume_social .semi-bold {
+  color: #fff;
+
+}
+
+.resume .resume_right {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+.resume .resume_right .bold {
+  color: #ad5700;
+  border-radius: 50px;
+
+  
+}
+
+.resume .resume_right .resume_work ul,
+.resume .resume_right .resume_education ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.resume .resume_right ul li {
+  position: relative;
+}
+
+.resume .resume_right ul li .date {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.resume .resume_right ul li .info {
+  margin-bottom: 20px;
+}
+
+.resume .resume_right ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.resume .resume_right .resume_work ul li:before,
+.resume .resume_right .resume_education ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50px;
+
+  border: 2px solid #ad5700;
+}
+
+.resume .resume_right .resume_work ul li:after,
+.resume .resume_right .resume_education ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 115px;
+  border-radius: 50px;
+
+  background: #f4800b;
+}
+
+.resume .resume_right .resume_hobby ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume .resume_right .resume_hobby ul li {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #0bb5f4;
+  border-radius: 50%;
+  position: relative;
+  color: #0bb5f4;
+}
+
+.resume .resume_right .resume_hobby ul li i {
+  font-size: 30px;
+}
+
+.resume .resume_right .resume_hobby ul li:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: -52px;
+  width: 50px;
+  height: 2px;
+  background: #0bb5f4;
+}
+
+.resume .resume_right .resume_hobby ul li:last-child:before {
+  display: none;
+}
+
+.collapsible {
+  background-color: #ad5700;
+  color: white;
+  /* font-family: "Sofia", sans-serif; */
+  cursor:  url(myBall.cur),auto;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: 1px;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 25px;
+  
+}
+
+.active {
+  background-color: #ad5700;
+  color:#ad5700;
+  
+}
+
+
+.collapsible:hover {
+  background-color: #340018;
+  color: #ffffff;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #ffffff;
+  
+}
