@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  width: 800;
   box-sizing: border-box;
   list-style: none;
   font-family: "Montserrat", sans-serif;
@@ -18,36 +19,49 @@ body {
 .bold {
   font-weight: 700;
   font-size: 25px;
+  
   text-transform: uppercase;
   background-color: #341a00;
   border-radius: 50px;
-  margin-top: 5%;
   padding: 20px;
 }
 
 
 a:link {
-  color: #ff8800;
+  color: #ffffff;
+  margin-left: 15px;
+  position: relative;
 }
 /* visited link */
 a:visited {
-  color: #341a00;
+  color: #f4800b;
 }
 /* mouse over link */
 a:hover {
-  color: #341a00;
+  color: #f4800b;
 }
 /* selected link */
 a:active {
-  color: #eaff00;
+  color: #f4800b;
 }
 
 
 .url_styling {
   font-weight: 600;
   font-size: 15px;
+  height: 40px;
   font-display: #412;
   transform-box: border-box;
+  text-decoration-color: #9c4e00;
+  color: #000000;
+}
+
+.quote_styling {
+  font-weight: 600;
+  font-size: 25px;
+  font-display: #412;
+  transform-box: border-box;
+  text-align: center;
   text-decoration-color: #9c4e00;
   color: #000000;
 }
@@ -74,7 +88,7 @@ a:active {
 .bold_headline_Rock {
   font-weight: 700;
   font-size: 40px;
-  margin-top: 10px;
+  margin-top: 4%;
   text-align:left;
   text-decoration-color: #341a00;
   text-transform:uppercase;
@@ -138,7 +152,7 @@ text-overflow: clip;  margin-top: 10px;
   width: 1800px;
   height: auto;
   display: flex;
-  margin: 50px auto;
+  /* margin: 50px auto; */
 }
 
 .resume .resume_left {
@@ -196,7 +210,7 @@ text-overflow: clip;  margin-top: 10px;
 }
 
 .resume .resume_left ul li:last-child {
-  margin-bottom: 0;
+
 }
 
 .resume .resume_left ul li .icon {
@@ -206,14 +220,16 @@ text-overflow: clip;  margin-top: 10px;
   background-color: #341a00;
   color: #fff;
   border-radius: 50%;
-  margin-right: 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
   font-size: 16px;
   position: relative;
 }
 
-.resume .icon i,
+.resume .icon i{
+margin-top: 9px;
+margin-left: 28%;
+
+}
+
 .resume .resume_right .resume_hobby ul li i {
   position: absolute;
   top: 50%;
@@ -223,8 +239,7 @@ text-overflow: clip;  margin-top: 10px;
 
 .resume .resume_left ul li .data {
   color: #ffffffdd;
-  margin-left: 1%;
-
+  margin-top: 6px;
   
 }
 
@@ -270,7 +285,7 @@ text-overflow: clip;  margin-top: 10px;
 }
 
 .resume .resume_right {
-  width: 520px;
+  width: 750px;
   background: #fff;
   padding: 25px;
 }
